@@ -54,8 +54,8 @@ export default function Login() {
   };
 
   return (
-    <section style={styles.section}>
-      <div style={styles.container}>
+    <section className="section" style={styles.section}>
+      <div className="container" style={styles.container}>
         <div style={styles.header}>
           <Title style={styles.title}>Log in</Title>
           <Text style={styles.text}>
@@ -107,7 +107,7 @@ export default function Login() {
             </a>
           </Form.Item>
           <Form.Item style={{ marginBottom: "0px" }}>
-            <Button block="true" type="default" htmlType="submit">
+            <Button block="true" type="primary" htmlType="submit">
               Log in
             </Button>
             <div style={styles.footer}>

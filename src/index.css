@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer{
+@layer components{
 .flex{
     display: flex;
+
+}
+.container{
+    border: 2px dashed #080096;
+    border-radius: 20px;
+    color: white;
+}
+.section{
+    background: linear-gradient( 262deg, #2a5a7b, #a4177f );
 }
 }

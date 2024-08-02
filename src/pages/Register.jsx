@@ -55,13 +55,12 @@ export default function Register() {
   };
 
   return (
-    <section style={styles.section}>
-      <div style={styles.container}>
+    <section className="section" style={styles.section}>
+      <div className="container" style={styles.container}>
         <div style={styles.header}>
           <Title style={styles.title}>Register</Title>
           <Text style={styles.text}>
-            Welcome back to UI! Please enter your details below to
-            sign in.
+            Welcome back to UI! Please enter your details below to sign in.
           </Text>
         </div>
         <Form
@@ -121,7 +120,7 @@ export default function Register() {
             </a>
           </Form.Item>
           <Form.Item style={{ marginBottom: "0px" }}>
-            <Button block="true" type="default" htmlType="submit">
+            <Button block="true" type="primary" htmlType="submit">
               Register
             </Button>
             <div style={styles.footer}>
